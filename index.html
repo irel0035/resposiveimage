@@ -5,6 +5,20 @@
     <title>resposiveimages</title>
 </head>
 <body>
-    
+    <p>grabbing photos by url</p>
+    <figure>
+        <picture>
+            <source srcset="img/large/1500.jpeg" media="(min-width: 
+            1500px)"/>
+            <source srcset="img/medium/1200.jpeg" media="(min-width: 1200px)"/>
+            <source srcset="img/small/900.jpeg" media="(min-width: 
+            900px)"/>
+            
+            <!-- MOBILE FIRST -->
+            <img src="img/default/400.jpeg" alt="Picture of something from" />
+        </picture>
+    </figure>
+     
+  
 </body>
 </html>
